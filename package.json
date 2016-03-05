@@ -1,0 +1,44 @@
+{
+  "name": "clear-cli",
+  "version": "0.0.0",
+  "description": "Clear the terminal cross-platform",
+  "license": "MIT",
+  "repository": "sindresorhus/clear-cli",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "bin": {
+    "clear": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10"
+  },
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "files": [
+    "cli.js"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "clear",
+    "terminal",
+    "term",
+    "screen",
+    "command-line",
+    "shell",
+    "cross-platform",
+    "ansi"
+  ],
+  "dependencies": {
+    "meow": "^3.7.0"
+  },
+  "devDependencies": {
+    "ava": "*",
+    "execa": "^0.2.2",
+    "xo": "*"
+  }
+}
