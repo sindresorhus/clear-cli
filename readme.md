@@ -1,4 +1,4 @@
-# clear-cli [![Build Status](https://travis-ci.org/sindresorhus/clear-cli.svg?branch=master)](https://travis-ci.org/sindresorhus/clear-cli)
+# clear-cli
 
 > Clear the terminal cross-platform
 
