@@ -1,11 +1,13 @@
 #!/usr/bin/env node
-'use strict';
-var meow = require('meow');
-var ansiEscapes = require('ansi-escapes');
+import process from 'node:process';
+import meow from 'meow';
+import ansiEscapes from 'ansi-escapes';
 
-meow([
-	'Usage',
-	'  $ clear'
-]);
+meow(`
+	Usage
+	  $ clear
+`, {
+	importMeta: import.meta,
+});
 
 process.stdout.write(ansiEscapes.clearScreen);

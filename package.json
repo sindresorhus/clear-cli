@@ -1,45 +1,47 @@
 {
-  "name": "clear-cli",
-  "version": "1.0.1",
-  "description": "Clear the terminal cross-platform",
-  "license": "MIT",
-  "repository": "sindresorhus/clear-cli",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "bin": {
-    "clear": "cli.js"
-  },
-  "engines": {
-    "node": ">=0.10"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "cli.js"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "clear",
-    "terminal",
-    "term",
-    "screen",
-    "command-line",
-    "shell",
-    "cross-platform",
-    "ansi"
-  ],
-  "dependencies": {
-    "ansi-escapes": "^1.2.0",
-    "meow": "^3.7.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "execa": "^0.2.2",
-    "xo": "*"
-  }
+	"name": "clear-cli",
+	"version": "1.0.1",
+	"description": "Clear the terminal cross-platform",
+	"license": "MIT",
+	"repository": "sindresorhus/clear-cli",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"type": "module",
+	"bin": {
+		"clear": "./cli.js"
+	},
+	"engines": {
+		"node": "^12.20.0 || ^14.13.1 || >=16.0.0"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"clear",
+		"terminal",
+		"term",
+		"screen",
+		"command-line",
+		"shell",
+		"cross-platform",
+		"ansi"
+	],
+	"dependencies": {
+		"ansi-escapes": "^5.0.0",
+		"meow": "^10.1.1"
+	},
+	"devDependencies": {
+		"ava": "^3.15.0",
+		"execa": "^5.1.1",
+		"xo": "^0.45.0"
+	}
 }
