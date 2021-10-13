@@ -1,6 +1,6 @@
 {
 	"name": "clear-cli",
-	"version": "1.0.1",
+	"version": "2.0.0",
 	"description": "Clear the terminal cross-platform",
 	"license": "MIT",
 	"repository": "sindresorhus/clear-cli",
